@@ -1,0 +1,50 @@
+/* -------------------------------------------------- */
+/* HACKS 
+/* -------------------------------------------------- */
+
+/* Utilize with requestAnimationFrame. Use sparingly. */
+%will-change {
+    will-change: auto;
+}
+
+
+/* SplitText fix for font rendering. Prevents blinking. Only apply to text animated with SplitText, otherwise this is a very performance heavy fix. */
+%fix-font-render {
+    transform: translateZ(0);
+    font-kerning: none;
+    -webkit-text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+}
+
+
+/* Force use of graphics memory rendering. Use sparingly. */
+%force-gpu {
+    transform: translate3d(0, 0, 0) translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+
+
+/* Auto-height YouTube iFrame video container. */
+%iframe-container, .video-container {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 30px;
+    padding-bottom: 56.25%;
+}
+
+%iframe-container iframe, .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Create a style-cleaned and self-contained component. */
+%reset {
+    all: initial;
+    contain: content;
+}

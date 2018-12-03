@@ -1,0 +1,124 @@
+/* -------------------------------------------------- */
+/* FOOTER
+/* -------------------------------------------------- */
+
+/* PARENT */
+#toolbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+
+
+/* PARENT */
+#toolbar .menubar {
+    padding-left: 0;
+    padding-right: 0; 
+}
+
+
+/* STICKY */
+#toolbar.sticky .menubar,
+#toolbar.sticky .menubar {
+
+}
+
+
+/* -------------------------------------------------- */
+/* MENU
+/* -------------------------------------------------- */
+
+/* PARENT */
+#toolbar .menubar .menu-items {
+    
+}
+
+
+/* CHILD */
+#toolbar .menubar .menu-items li {
+    position: relative;
+    height: 60px;
+    color: var(--white-color);
+    font-family: var(--font-header);
+    font-size: 1em;
+
+    transition: var(--transition);
+}
+
+
+#toolbar .menubar .menu-items li a {
+    display: block;
+    width: 100%;
+}
+
+
+/* HOVER */
+#toolbar .menubar .menu-items li:hover {
+    color: var(--primary-color);
+}
+
+
+/* -------------------------------------------------- */
+/* CALLOUT
+/* -------------------------------------------------- */
+
+/* PARENT */
+#toolbar .menubar .callout {
+    position: relative;
+    margin-left: 2rem;
+    max-width: 175px;
+    color: var(--primary-color);
+    font-family: var(--font-header);
+    font-size: 0.8em;
+    letter-spacing: 0.025em;
+    transition: var(--transition);
+}
+
+
+/* CHILD */
+#toolbar .menubar .callout span {
+    display: block;
+    position: relative;
+    padding-bottom: 0.25rem;
+    width: 100%;
+}
+
+#toolbar .menubar .callout span:first-child::after,
+#toolbar .menubar .callout span:last-child::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 1px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    z-index: -1;
+}
+
+#toolbar .menubar .callout span:first-child::after {
+    bottom: 0;
+}
+
+#toolbar .menubar .callout span:last-child::before {
+    opacity: 0;
+    top: 0;
+}
+
+
+/* HOVER */
+#toolbar .menubar .callout:hover span {
+    color: var(--primary-color);
+}
+
+#toolbar .menubar .callout:hover span:first-child::after,
+#toolbar .menubar .callout:hover span:last-child::before {
+    /*opacity: 1;*/
+    width: 75%;
+    /*background-color: var(--primary-color);*/
+}
