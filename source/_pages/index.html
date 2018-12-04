@@ -10,7 +10,7 @@ dialog: dialog/
 
 
 <!-- SECTION: HERO -->
-<section id="hero" class="grid-x grid-padding-x align-center align-middle position-relative padding-none width-xl height-100 height-auto-mobile background-secondary background-grid-pattern overflow-hidden no-selection emergence-ignore" data-emergence="hidden" role="banner">
+<section id="hero" class="grid-x grid-padding-x align-center align-middle position-relative margin-bottom-xl-mobile padding-none width-lg height-100 background-secondary background-grid-pattern overflow-hidden no-selection emergence-ignore" data-emergence="hidden" role="banner">
 
 
 	<!-- BACKGROUND: IMAGE -->
@@ -45,7 +45,7 @@ dialog: dialog/
 
 
 	<!-- BACKGROUND -->
-	<div data-src="{{ root }}{{ assets }}index/render-02.png" id="hero-background" class="position-absolute bottom left fullscreen background-contain background-bl background-no-repeat fade-bottom fade-bottom-secondary lazy no-pointer z-01"></div>
+	<div data-src="{{ root }}{{ assets }}index/render-02.png" id="hero-background" class="position-absolute top left fullscreen background-contain background-tl background-no-repeat fade-bottom fade-bottom-secondary lazy no-pointer z-01"></div>
 	<!-- // BACKGROUND -->
 
 
@@ -55,7 +55,7 @@ dialog: dialog/
 
 
 	<!-- GRID -->
-	<header id="hero-copy" class="cell position-relative margin-top-xl margin-right-auto padding-tb-none-mobile width-xs anim fix-font-render z-03">
+	<header id="hero-copy" class="cell position-relative margin-right-auto padding-tb-none-mobile width-xs anim fix-font-render z-03">
 
 
 		<!-- CELL -->
@@ -81,8 +81,10 @@ dialog: dialog/
 
 			<a href="#welcome" class="button-learn-more button-hero button-hero-left scroll-to">Discover what ARTAS can do for you</a>
 
+			<!--
 			<a href="https://t.me/axelnetwork" target="_blank" class="width-xxxs round-full button button-fx-primary anim-top hide">Join Our Telegram</a>
 			<a href="https://go.axel.org/whitelist" target="_blank" class="width-xxxs round-full button button-fx-secondary anim-top hide">Join the Whitelist</a>
+			-->
 
 		</div>
 		<!-- // BUTTON GROUP -->
@@ -107,16 +109,16 @@ dialog: dialog/
 
 
 <!-- SECTION: WELCOME / INTRODUCING ARTAS -->
-<section id="welcome" class="grid-x grid-padding-x align-right align-middle small-up-1 medium-up-2 position-relative padding-none background-secondary background-grid-pattern emergence-ignore" data-emergence="hidden">
+<section id="welcome" class="grid-x grid-padding-x align-right align-middle small-up-1 medium-up-2 position-relative padding-none width-lg background-secondary background-grid-pattern emergence-ignore" data-emergence="hidden">
 
 
 		<!-- FADE -->
-		<div class="position-absolute top left fade-full fade-full-secondary fullscreen no-pointer send-to-back"></div>
+		<div class="position-absolute top left padding-top-xl fade-full fade-full-secondary fullscreen no-pointer send-to-back"></div>
 		<!-- // FADE -->
 
 
 		<!-- CELL -->
-		<header class="cell width-xxs font-header text-primary anim fix-font-render">
+		<header class="cell width-xs font-header text-primary anim fix-font-render">
 
 
 			<!-- COPY -->
@@ -159,7 +161,7 @@ dialog: dialog/
 
 
 		<!-- CELL -->
-		<header class="cell position-relative margin-tb-lg margin-tb-md-mobile width-xs font-header text-center anim fix-font-render">
+		<header class="cell position-relative margin-tb-lg margin-tb-md-mobile width-lg font-header text-center anim fix-font-render">
 
 
 			<!-- COPY -->
@@ -173,7 +175,7 @@ dialog: dialog/
 
 
 		<!-- CELL -->
-		<div class="cell grid-x align-center align-top small-up-1 medium-up-2 large-up-4 list-details background-white">
+		<div class="cell grid-x align-center align-top small-up-1 medium-up-2 large-up-4 list-details width-lg center background-white">
 
 
 			<!-- CELL -->
@@ -443,28 +445,33 @@ dialog: dialog/
 
 
 <!-- SECTION: ARE YOU A CANDIDATE? -->
-<section id="are-you-a-candidate" class="position-relative margin-none padding-none fade-top fade-bottom fade-top-white fade-bottom-white height-xl height-auto-mobile background-white emergence-ignore" data-emergence="hidden">
+<section id="are-you-a-candidate" class="position-relative margin-none padding-none fade-top fade-bottom fade-top-white fade-bottom-white height-xl height-auto-mobile background-white overflow-hidden emergence-ignore" data-emergence="hidden">
 
 
-		<!-- VIDEO -->
-		<div class="position-relative fade-full fade-full-white opacity-05 z-00">
+	<!-- VIDEO -->
+	<div class="position-relative fade-full fade-full-white opacity-05 z-00">
 
-			<video class="width-full anim lazy" preload="auto" playsinline muted loop>
-				<source src="{{ root }}{{ assets }}index/media-01.mp4" poster="{{ root }}{{ assets }}index/media-01.jpg" type="video/mp4">
-				<!--<source src="{{ root }}{{ assets }}index/media-01.webm" type="video/webm">-->
-			</video>
+		<video class="width-full anim lazy" preload="auto" playsinline muted loop>
+			<source src="{{ root }}{{ assets }}index/media-01.mp4" poster="{{ root }}{{ assets }}index/media-01.jpg" type="video/mp4">
+			<!--<source src="{{ root }}{{ assets }}index/media-01.webm" type="video/webm">-->
+		</video>
 
-		</div>
-		<!-- // VIDEO -->
+	</div>
+	<!-- // VIDEO -->
+
+
+
+	<!-- GRID -->
+	<div class="grid-x grid-padding-x align-left align-middle position-absolute position-relative-mobile bottom center padding-bottom-xl width-lg font-header anim fix-font-render z-01">
 
 
 		<!-- CELL -->
-		<header class="grid-x grid-padding-x align-center align-middle position-absolute position-relative-mobile top center width-xxs font-header anim z-01">
+		<div class="cell width-xxs">
 
 
 			<!-- COPY -->
-			<h1 class="cell padding-tb-none padding-tb-none-mobile hairline hairline-primary hairline-left p1 text-primary text-spacing-xxs">Are You A Candidate for Hair Restoration with ARTAS iX?</h1>
-			<p class="cell padding-tb-none padding-tb-none-mobile">The ARTAS procedure is designed for the dynamic man. It’s minimally invasive with a quick recovery time, so you won’t need to take more than a day or two away from your work or other activities. Your hair regrows gradually and naturally, and doesn’t require long-term specialized care. And, the precision FUE technique means any scarring will be effectively invisible — so there are no limits on the way you can cut or style your hair once it’s grown in.<br><br>
+			<h1 class="hairline hairline-primary hairline-left p1 text-primary text-spacing-xxs">Are You A Candidate for Hair Restoration with ARTAS iX?</h1>
+			<p>The ARTAS procedure is designed for the dynamic man. It’s minimally invasive with a quick recovery time, so you won’t need to take more than a day or two away from your work or other activities. Your hair regrows gradually and naturally, and doesn’t require long-term specialized care. And, the precision FUE technique means any scarring will be effectively invisible — so there are no limits on the way you can cut or style your hair once it’s grown in.<br><br>
 
 			The ARTAS Hair Restoration System with ARTAS iX is FDA-cleared for the treatment of male pattern hair loss. The ideal ARTAS candidate has straight, black or brown hair and has remaining healthy hair on their scalp for harvesting. Results take approximately six months to grow in, with best results visible one year after treatment.<br><br>
 
@@ -473,8 +480,13 @@ dialog: dialog/
 			<!-- COPY -->
 
 
-		</header>
+		</div>
 		<!-- // CELL -->
+
+
+	</div>
+	<!-- // GRID -->
+
 
 
 </section>
@@ -485,7 +497,7 @@ dialog: dialog/
 
 
 <!-- SECTION: THE ARTAS EXPERIENCE -->
-<section id="the-artas-experience" class="grid-x grid-padding-x align-right align-middle small-up-1 medium-up-2 position-relative padding-none background-secondary background-grid-pattern emergence-ignore" data-emergence="hidden">
+<section id="the-artas-experience" class="grid-x grid-padding-x align-center align-top small-up-1 medium-up-1 large-up-2 position-relative padding-tb-xl width-lg background-secondary background-grid-pattern emergence-ignore" data-emergence="hidden">
 
 
 	<!-- FADE -->
@@ -494,7 +506,7 @@ dialog: dialog/
 
 
 	<!-- CELL -->
-	<header class="cell width-xs font-header anim fix-font-render">
+	<div class="cell width-xs font-header anim fix-font-render">
 
 
 		<!-- COPY -->
@@ -513,12 +525,12 @@ dialog: dialog/
 		<!-- // BUTTON -->
 
 
-	</header>
+	</div>
 	<!-- // CELL -->
 
 
 	<!-- CELL -->
-	<div class="cell padding-none-mobile">
+	<div class="cell align-self-right padding-none">
 		<img src="{{root}}{{assets}}blank.svg" data-src="{{ root }}{{ assets }}index/dr-wolffeld.png" alt="ARTAS iX" class="width-xs drop-shadow-xl dzsparallaxer auto-init lazy" data-options='{ direction: "reverse", settings_mode: "oneelement", mode_scroll: "normal", animation_duration: "10", easing: "easeInOutSine", settings_mode_oneelement_max_offset: "50" }'>
 	</div>
 	<!-- // CELL -->
@@ -532,7 +544,7 @@ dialog: dialog/
 
 
 <!-- SECTION: WHAT SETS ARTAS APART? -->
-<section id="what-sets-artas-apart" class="position-relative margin-none padding-none fade-top fade-bottom fade-top-white fade-bottom-white height-md height-auto-mobile background-white emergence-ignore" data-emergence="hidden">
+<section id="what-sets-artas-apart" class="position-relative margin-none padding-none padding-tb-xxl-mobile fade-top fade-bottom fade-top-white fade-bottom-white height-md height-auto-mobile background-white overflow-hidden emergence-ignore" data-emergence="hidden">
 
 
 	<!-- VIDEO -->
@@ -547,254 +559,260 @@ dialog: dialog/
 	<!-- // VIDEO -->
 
 
-	<!-- CELL -->
-	<div class="grid-x grid-padding-x align-center align-middle position-absolute position-relative-mobile bottom right width-xxs font-header anim fix-font-render z-01">
-
-
-		<!-- COPY -->
-		<h1 class="cell padding-tb-none padding-tb-none-mobile hairline hairline-primary hairline-left p1 text-primary text-spacing-xxs">What Sets ARTAS Apart?</h1>
-		<p class="cell padding-tb-none padding-tb-none-mobile p4">The ARTAS Robotic Hair Restoration System delivers the best hair restoration experience available today.</p>
-		<!-- COPY -->
+	<!-- GRID -->
+	<div class="grid-x grid-padding-x align-right align-middle position-absolute position-relative-mobile bottom center width-lg font-header anim fix-font-render z-01">
 
 
 		<!-- CELL -->
-		<div class="cell list-details position-relative">
+		<div class="cell width-xxs">
+
+			<!-- COPY -->
+			<h1 class="hairline hairline-primary hairline-left p1 text-primary text-spacing-xxs">What Sets ARTAS Apart?</h1>
+			<p class="p4">The ARTAS Robotic Hair Restoration System delivers the best hair restoration experience available today.</p>
+			<!-- COPY -->
 
 
 			<!-- CELL -->
-			<div class="media-object">
+			<div class="list-details position-relative">
 
 
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-predictable-results" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>Unprecedented technology</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
+				<!-- CELL -->
+				<div class="media-object">
 
 
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-predictable-results" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>Unprecedented technology</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
 
 
-					<!-- COPY -->
-					<h2 class="h6 text-primary">Unprecedented technology</h2>
-					<!-- // COPY -->
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
 
 
-				  </div>
-				  <!-- // MEDIA OBJECT -->
+						<!-- COPY -->
+						<h2 class="h6 text-primary">Unprecedented technology</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
+
+
+				<!-- CELL -->
+				<div class="media-object">
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-no-more-guesswork" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>Fully customizable</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
+
+
+						<!-- COPY -->
+						<h2 class="h6 text-primary">Fully customizable</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
+
+
+				<!-- CELL -->
+				<div class="media-object">
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-consistency" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>Shorter procedure and recovery time</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
+
+
+						<!-- COPY -->
+						<h2 class="h6 text-primary">Shorter procedure and recovery time</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
+
+
+				<!-- CELL -->
+				<div class="media-object">
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>Significantly lower surgical risks</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
+
+
+						<!-- COPY -->
+						<h2 class="h6 text-primary">Significantly lower surgical risks</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
+
+
+				<!-- CELL -->
+				<div class="media-object">
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>No visible scarring</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
+
+
+						<!-- COPY -->
+						<h2 class="h6 text-primary">No visible scarring</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
+
+
+				<!-- CELL -->
+				<div class="media-object">
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section">
+
+						<!-- IMAGE -->
+						<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+							<title>Completely natural results</title>
+							<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
+							<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
+
+						</svg>
+						<!-- // IMAGE -->
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+					  <!-- MEDIA OBJECT -->
+					  <div class="media-object-section align-self-middle">
+
+
+						<!-- COPY -->
+						<h2 class="h6 text-primary">Completely natural results</h2>
+						<!-- // COPY -->
+
+
+					  </div>
+					  <!-- // MEDIA OBJECT -->
+
+
+				</div>
+				<!-- // CELL -->
 
 
 			</div>
 			<!-- // CELL -->
-
-
-			<!-- CELL -->
-			<div class="media-object">
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-no-more-guesswork" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>Fully customizable</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
-
-
-					<!-- COPY -->
-					<h2 class="h6 text-primary">Fully customizable</h2>
-					<!-- // COPY -->
-
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-			</div>
-			<!-- // CELL -->
-
-
-			<!-- CELL -->
-			<div class="media-object">
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-consistency" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>Shorter procedure and recovery time</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
-
-
-					<!-- COPY -->
-					<h2 class="h6 text-primary">Shorter procedure and recovery time</h2>
-					<!-- // COPY -->
-
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-			</div>
-			<!-- // CELL -->
-
-
-			<!-- CELL -->
-			<div class="media-object">
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>Significantly lower surgical risks</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
-
-
-					<!-- COPY -->
-					<h2 class="h6 text-primary">Significantly lower surgical risks</h2>
-					<!-- // COPY -->
-
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-			</div>
-			<!-- // CELL -->
-
-
-			<!-- CELL -->
-			<div class="media-object">
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>No visible scarring</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
-
-
-					<!-- COPY -->
-					<h2 class="h6 text-primary">No visible scarring</h2>
-					<!-- // COPY -->
-
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-			</div>
-			<!-- // CELL -->
-
-
-			<!-- CELL -->
-			<div class="media-object">
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section">
-
-					<!-- IMAGE -->
-					<svg id="icon-healthy-hair" class="wh-xxxs svg-primary svg-stroke-none anim anim-interact" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-
-						<title>Completely natural results</title>
-						<path id="list-ellipsis" d="M72.58,53.29A24.14,24.14,0,0,1,31.5,68.17a23.76,23.76,0,0,1-7-17A24.14,24.14,0,0,1,62.79,31.61L67,27.39A30.38,30.38,0,1,0,78.35,47.51Z"/>
-						<path id="list-checkmark" d="M48.38,66.8,32.83,51.25a3.57,3.57,0,0,1,5.05-5.06L48.38,56.7,77.56,27.53a3.57,3.57,0,1,1,5,5Z"/>
-
-					</svg>
-					<!-- // IMAGE -->
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-				  <!-- MEDIA OBJECT -->
-				  <div class="media-object-section align-self-middle">
-
-
-					<!-- COPY -->
-					<h2 class="h6 text-primary">Completely natural results</h2>
-					<!-- // COPY -->
-
-
-				  </div>
-				  <!-- // MEDIA OBJECT -->
-
-
-			</div>
-			<!-- // CELL -->
-
 
 		</div>
 		<!-- // CELL -->
 
 
 	</div>
-	<!-- // CELL -->
+	<!-- // GRID -->
 
 
 </section>
@@ -809,7 +827,7 @@ dialog: dialog/
 
 
 	<!-- COPY -->
-	<h1 class="cell padding-bottom-none width-xs center header-center header-primary header-25 p3 text-primary text-center text-spacing-xxs">Find out more by scheduling your consultation with Dr. Michael Wolfeld in Riverdale, New York.</h1>
+	<h1 class="cell padding-bottom-none width-lg center header-center header-primary header-25 p3 text-primary text-center text-spacing-xxs">Find out more by scheduling your consultation with Dr. Michael Wolfeld in Riverdale, New York.</h1>
 	<a href="#" class="cell p4 font-header text-light-grey text-primary-hover text-bold text-center text-spacing-xxs background-primary background-white-hover">Schedule Consultation</a>
 	<!-- COPY -->
 

@@ -178,7 +178,7 @@ var tlMasterTimelineScenes = new TimelineMax();
 
 		if ( animIconPredictableResults.hasClass("anim-play") ) {
 			
-			tlIconPredictableResults.delay(1).play();
+			tlIconPredictableResults.play();
 
 		} else {
 
@@ -196,7 +196,7 @@ var tlMasterTimelineScenes = new TimelineMax();
 
 		if ( animIconNoMoreGuesswork.hasClass("anim-play") ) {
 			
-			tlIconNoMoreGuessWork.delay(1).play();
+			tlIconNoMoreGuessWork.play();
 
 		} else {
 
@@ -214,7 +214,7 @@ var tlMasterTimelineScenes = new TimelineMax();
 
 		if ( animIconConsistency.hasClass("anim-play") ) {
 			
-			tlIconConsistency.delay(1).play();
+			tlIconConsistency.play();
 
 		} else {
 
@@ -232,7 +232,7 @@ var tlMasterTimelineScenes = new TimelineMax();
 
 		if ( animIconHealthyHair.hasClass("anim-play") ) {
 			
-			tlIconHealthyHair.delay(1).play();
+			tlIconHealthyHair.play();
 
 		} else {
 

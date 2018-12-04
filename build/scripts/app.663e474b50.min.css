@@ -2008,6 +2008,8 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   width: 50%; }
 
 @media print, screen and (min-width: 40em) {
+  .medium-up-1 > .cell {
+    width: 100%; }
   .medium-up-2 > .cell {
     width: 50%; }
   .medium-up-3 > .cell {
@@ -2350,7 +2352,7 @@ html.inactive body {
 /* COMMON */
 .hairline {
     position: relative;
-    padding: 0.25rem;
+    padding: 1rem;
     font-family: 'Martel', serif;
     font-size: 1.25em;
 
@@ -2491,7 +2493,7 @@ html.inactive body {
 /* COMMON */
 .button-hero {
     position: relative;
-    padding: 0.25rem;
+    padding: 1rem;
     font-family: 'Martel', serif;
     font-size: 1.25em;
     line-height: 1em;
@@ -6404,12 +6406,6 @@ dialog {
 
 
         /* HELPERS */
-        .grid-x.grid-padding-x > .cell.padding-none-mobile {
-            padding-top: 0;
-            padding-right: 0;
-            padding-bottom: 0;
-            padding-left: 0;
-        }
 
 
         .grid-x.grid-padding-x > .cell.padding-tb-none-mobile {
@@ -6763,11 +6759,6 @@ h1 div, h2 div, h3 div, h4 div, h5 div, h6 div, p div {
     max-width: 1440px;
 }
 
-.width-xl {
-    width: 100%;
-    max-width: 1600px;
-}
-
 .width-full {
     width: 100%;
 }
@@ -6908,10 +6899,6 @@ svg {
     margin-top: 2rem;
 }
 
-.margin-top-xl {
-    margin-top: 6rem;
-}
-
 
 /* MARGIN: RIGHT */
 
@@ -6988,11 +6975,20 @@ svg {
     padding-bottom: 4rem;
 }
 
+.padding-tb-xl {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 
 /* PADDING: LEFT / RIGHT */
 
 
 /* PADDING: TOP */
+
+.padding-top-xl {
+    padding-top: 6rem;
+}
 
 
 /* PADDING: RIGHT */
@@ -7457,8 +7453,8 @@ ul.text-truncate li * {
     background-position: top right;
 }
 
-.background-bl {
-    background-position: bottom left;
+.background-tl {
+    background-position: top left;
 }
 
 
@@ -8069,6 +8065,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     /* MARGIN: BOTTOM */
 
+    .margin-bottom-xl-mobile {
+        margin-bottom: 6rem;
+    }
+
 
     /* MARGIN: LEFT */
 
@@ -8078,12 +8078,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     /* -------------------------------------------------- */
 
     /* PADDING: NONE */
-    .padding-none-mobile {
-        padding-top: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
 
     .padding-tb-none-mobile {
         padding-top: 0;
@@ -8095,6 +8089,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
     /* PADDING: TOP / BOTTOM */
+
+    .padding-tb-xxl-mobile {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
 
 
     /* PADDING: LEFT / RIGHT */
@@ -8249,6 +8248,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
     /* TEXT ALIGN */
+    .text-center-mobile {
+        text-align: center;
+    }
 
 
     /* TEXT TRANSFORM */
@@ -8541,6 +8543,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
     /* TEXT ALIGN */
+
+    .text-right-tablet {
+        text-align: right;
+    }
 
 
     /* TEXT TRANSFORM */

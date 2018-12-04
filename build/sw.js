@@ -176,23 +176,23 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/icons/android-chrome-192x192.png",
-    "revision": "50e54093a500c7f2a73113c929ce3e68"
+    "revision": "16ca991cee87847b9550dec0e94ba770"
   },
   {
     "url": "assets/icons/android-chrome-192x192.webp",
-    "revision": "e1b581dfe1b9721107eae488f4a59006"
+    "revision": "33e837b44e19432421c148f6d7d5eac1"
   },
   {
     "url": "assets/icons/android-chrome-512x512.png",
-    "revision": "f06748e0364a66d7846f1d5a356b10bb"
+    "revision": "cc14a48ccc329c03dfa66c0c73c54a49"
   },
   {
     "url": "assets/icons/android-chrome-512x512.webp",
-    "revision": "94b6be1a2e4e0174b7c2a1ecf9184e28"
+    "revision": "9d69fc031e7292165b9e516a0def3e28"
   },
   {
     "url": "assets/icons/apple-touch-icon.png",
-    "revision": "deb70b877c5a5eae6fa25b67679cbe1d"
+    "revision": "a5f0b8be0347425e8fea042d0a714da5"
   },
   {
     "url": "assets/icons/apple-touch-icon.webp",
@@ -200,23 +200,23 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/icons/favicon-16x16.png",
-    "revision": "189dc6dee3aacbd994b30767377bd21e"
+    "revision": "b8491df8ba33d6b3331966c5b6362389"
   },
   {
     "url": "assets/icons/favicon-16x16.webp",
-    "revision": "590d4e0ac4b893f5bbd4e57943bdcdc6"
+    "revision": "af9ea87e240f6f7e9bf54282ef29b81d"
   },
   {
     "url": "assets/icons/favicon-32x32.png",
-    "revision": "300f5d8907f7a8c2b0f42deb2a05ec3e"
+    "revision": "b7d3906bc44f5f79071df36e129f9314"
   },
   {
     "url": "assets/icons/favicon-32x32.webp",
-    "revision": "0bad44e6741a78760f4e1cd6d7064db3"
+    "revision": "7c005d2744d8ee53135ad674ae578003"
   },
   {
     "url": "assets/icons/icon.png",
-    "revision": "6f814cdc9d96f3662e3963f37d3c1ef6"
+    "revision": "0a5a4a78977dd33720240411c40ff57d"
   },
   {
     "url": "assets/icons/icon.webp",
@@ -224,11 +224,11 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/icons/mstile-150x150.png",
-    "revision": "7c9e5751dcfdf56732b79559da1b7fb6"
+    "revision": "e06028be615c8569f15b6e9a6105050c"
   },
   {
     "url": "assets/icons/mstile-150x150.webp",
-    "revision": "f5275a2cee44e1d04bc411025da6b3f0"
+    "revision": "aab74e260cd1acee37debe9b72e87e66"
   },
   {
     "url": "assets/icons/safari-pinned-tab.png",
@@ -243,60 +243,68 @@ self.__precacheManifest = [
     "revision": "2c00b794fcf01aab101bd610c65f178f"
   },
   {
+    "url": "assets/index/dr-wolffeld.png",
+    "revision": "49d16fd8071a41bd8e0d53fc34301c17"
+  },
+  {
     "url": "assets/index/dr-wolffeld.webp",
-    "revision": "ae3f56253fad57668c7993fdc654c701"
+    "revision": "bc35c93aabf132e2e7c80bbf8c7129e4"
   },
   {
     "url": "assets/index/media-01.jpg",
-    "revision": "80229e164318c793e15d182994820426"
+    "revision": "2bc284668b24c3126d34c2f4ad7b9729"
   },
   {
     "url": "assets/index/media-01.webp",
-    "revision": "987624748c2f9ed6a092e4e987d9053c"
+    "revision": "b44609bc0b70a286ecf7ed16a9a4978a"
   },
   {
     "url": "assets/index/media-02.jpg",
-    "revision": "aa39ee052fcf865e3ad6371ce4489a42"
+    "revision": "bcc480d0784f366258a814d0a6811333"
   },
   {
     "url": "assets/index/media-02.webp",
-    "revision": "17716ba6dad449d5166fcc1fc5486f1c"
+    "revision": "592396ce9a540bd4a97426267ab51c5a"
   },
   {
     "url": "assets/index/render-01.png",
-    "revision": "60736cd0151bcadced7d5a48722a4deb"
+    "revision": "d0b6e8e4099f6ecfaae31ef68218c089"
   },
   {
     "url": "assets/index/render-01.webp",
-    "revision": "ae6acf22365ba7ed891e326baf45fa6c"
+    "revision": "c83b350255746cd013e20b3b26308759"
+  },
+  {
+    "url": "assets/index/render-02.png",
+    "revision": "d801ae31e2e880383648dc4b3f801c04"
   },
   {
     "url": "assets/index/render-02.webp",
-    "revision": "04dc956045170c8923141d9526f2748d"
+    "revision": "3fca38a324e6d956cafcd265e1a98a6d"
   },
   {
     "url": "assets/index/render-03.png",
-    "revision": "9f3d111fc093ae6cae6ac5973c41e07d"
+    "revision": "f0c3e375793abe8457ac44844ca86497"
   },
   {
     "url": "assets/index/render-03.webp",
-    "revision": "4f87a605429ac64a6d101f19d06ddc66"
+    "revision": "3113e0d6a0cd3f84cbd236a149b9a24b"
   },
   {
     "url": "assets/social/profile.png",
-    "revision": "5aaba300d0bba54e3465c5580b2f73de"
+    "revision": "4d29ac288692e4cbd3af59261748b87f"
   },
   {
     "url": "assets/social/profile.webp",
-    "revision": "e9f2611c56674f227b22742e95e3d84e"
+    "revision": "9f9d9fe1fc705df67083af79cc8deccc"
   },
   {
     "url": "assets/social/social.png",
-    "revision": "5fbbb94af1e01357c40d8e15b628bc22"
+    "revision": "d8b679897428f27295a539081c76fb3c"
   },
   {
     "url": "assets/social/social.webp",
-    "revision": "b298eee2e9de08d3d7fe3d70c91eadff"
+    "revision": "1b0078b988be4e27f93ad2bb0e55907b"
   },
   {
     "url": "assets/sprites/press/bitcoin-exchange-guide.png",
@@ -532,11 +540,11 @@ self.__precacheManifest = [
   },
   {
     "url": "dialog/sample.html",
-    "revision": "282a391acb637cff9d641f46acacd2ab"
+    "revision": "87c8c5790984101e9e56779337d5b562"
   },
   {
     "url": "error.html",
-    "revision": "449a7aee3882821d12674876531a4dff"
+    "revision": "329d5def9e7b09895d5f2c28b4145775"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -572,31 +580,31 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8519ddf79e8c9d4c21c059231f82df57"
+    "revision": "6f62de0b77fd234cb067703fe7fb3a74"
   },
   {
     "url": "sample.html",
-    "revision": "a732bdec12e72b860da0585c7d94ecfe"
+    "revision": "ea6c12f696217be5c8ef66cc1b7c8e1e"
   },
   {
-    "url": "scripts/app.c14410d9cf.min.css",
-    "revision": "c14410d9cfb9c4df7eaf0a4467c35d91"
+    "url": "scripts/app.663e474b50.min.css",
+    "revision": "663e474b5027fc729c39cd3208d81ea4"
   },
   {
-    "url": "scripts/app.d0a90fe27e.min.js",
-    "revision": "d0a90fe27e668d28511d917130d42e8d"
+    "url": "scripts/app.862ee138e8.min.js",
+    "revision": "862ee138e80ce46c6ca03c09d7fa22fd"
   },
   {
     "url": "scripts/styleguide.98ab78a312.min.css",
     "revision": "98ab78a31268335bba05af9d06ff16c5"
   },
   {
-    "url": "scripts/styleguide.cb3ae6325e.min.js",
-    "revision": "cb3ae6325e84f11f88ddc16b17677fb4"
+    "url": "scripts/styleguide.ba8ad06149.min.js",
+    "revision": "ba8ad06149357a4a88acafe6dc352070"
   },
   {
     "url": "styleguide.html",
-    "revision": "55a0d3860680d14ead9cdd6d6fa66ff1"
+    "revision": "cffbf2107415e30d42438374a87c115a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

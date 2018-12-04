@@ -1,8 +1,8 @@
 {
 	
 	"/": {
-        "name": "Wolffeld",
-		"short_name": "Wolffeld",
+        "name": "Wolfeld",
+		"short_name": "Wolfeld",
 		"url": "https://domain.com/",
 		"start_url": "index.html",
 		"display": "standalone",

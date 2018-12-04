@@ -5,7 +5,7 @@
 /* COMMON */
 .hairline {
     position: relative;
-    padding: 0.25rem;
+    padding: 1rem;
     font-family: var(--font-header);
     font-size: 1.25em;
 
